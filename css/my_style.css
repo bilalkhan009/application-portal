@@ -1,0 +1,346 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+html{
+    font-size: 62.5%;
+}
+
+ .bg_green p{
+    font-size: 1.3rem;
+}
+.phone_icon{
+    display: inline-block;
+    background: url(./../icons/call.png) no-repeat;
+    background-position: left;
+    background-size: 1.7rem;
+    padding: 1em 1.5em;
+}
+
+
+/* ###### nav-bar_styling #######  */
+.align-items{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.align-items a{
+    transition: color 0.5s ease-in-out;
+}
+.align-items a:hover{
+    color: black;
+}
+.nav-items .items{
+    text-transform: capitalize;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+.user_login{
+    background: url(./../icons/add-contact.png) no-repeat;
+    background-position: center left;
+    background-size: 2rem;
+    padding: 1em 4em;
+}
+
+.login{
+    background: url(./../icons/login.png) no-repeat;
+    background-position: center left;
+    background-size: 1.8rem;
+    padding: 1em 0em 1em 3.5em;
+}
+
+/* ####### content ######## */
+.content{
+    width: 100%;
+    height: 150px;
+    background-color: rgba(29, 44, 44, 0.922);
+}
+
+/* .content::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 5rem;
+    background-color: black;
+    margin-top: 2rem;
+} */
+
+
+.form_box{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.form_box .nic{
+    position: relative;
+}
+.nic .msg_icon{
+    background: url(./../icons/contact.png) no-repeat;
+    background-position: center right;
+    background-size: 3rem;
+    padding: 2.5em;
+    position: absolute;
+    top: 48%;
+    right: 1%;
+}
+
+.psw{
+    position: relative;
+}
+.psw .psw_icon{
+    background: url(./../icons/psw.png) no-repeat;
+    background-position: center right;
+    background-size: 3.5rem;
+    padding: 2.5em 3em;
+    position: absolute;
+    top: 45%;
+    right: 1%;
+}
+::placeholder{
+    font-size: 1.5rem;
+}
+
+.under_line a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.w3-right label:hover{
+    color: blue;
+}
+
+.footer_content{
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) , url(./../images/background-footer.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
+
+.footer_container{
+    max-width: 1400px;
+    width: 90%;
+    margin: auto;
+    padding-top: 15em;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* border: 1px solid red; */
+    color: white;
+}
+.for-small{
+    max-width: 650px;
+    display: flex;
+    position: relative;
+    left: -6%;
+}
+.footer_content a{
+    transition: color 0.5s ease-in-out;
+}
+.footer_content a:hover{
+    color: orange;
+}
+.departments_links{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.important_links{
+    margin-left: 5rem;
+}
+.important_links p{
+    line-height: 2.5rem;
+}
+.departments_links p{
+    padding-top: 0.5em;
+}
+
+/* .white-box{
+    position: relative;
+} */
+
+/* .white-box::after{
+    content: "";
+    display: block;
+    width: 50%;
+    height: 4rem;
+    background-color: aliceblue;
+    position: absolute;
+    top: 0%;
+    left: 42%;
+    z-index: 1;
+} */
+
+/* ####### utilities_classes ############ */
+.container{
+    max-width: 1400px;
+    width: 90%;
+    margin: auto;
+}
+
+@media screen and (max-width: 500px) { 
+    html{
+        font-size: 50%;
+    }
+    .bg_green p{
+        font-size: 1.7rem;
+    }
+    .user_login{
+        padding: 1em 1.8em;
+        text-align: left;
+        display: block;
+    }
+    .login{
+        display: block;
+        text-align: left;
+        padding: 1em 1.8em;
+    }
+
+    .footer_content{
+        height: auto;
+    }
+    .footer_container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        /* border: 1px solid red; */
+    }
+    .for-small{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 4em 0em;
+        left: 0%;
+    }
+
+    .white-box{
+        padding: 5em 0em;
+    }
+}
+
+@media  (min-width: 500px) and (max-width: 700px) {
+
+    .bg_green p{
+        font-size: 1.7rem;
+    }
+    .user_login{
+        padding: 1em 1.8em;
+        text-align: left;
+        display: block;
+    }
+    .login{
+        display: block;
+        text-align: left;
+        padding: 1em 1.8em;
+    }
+
+    .footer_content{
+        height: auto;
+    }
+    .footer_container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        /* border: 1px solid red; */
+    }
+    .for-small{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 4em 0em;
+        left: 0%;
+    }
+
+    .white-box{
+        padding: 5em 0em;
+    }
+}
+
+
+@media  (min-width: 700px) and (max-width: 889px) {
+
+    .bg_green p{
+        font-size: 1.7rem;
+    }
+    .user_login{
+        padding: 1em 1.8em;
+        text-align: left;
+        display: block;
+    }
+    .login{
+        display: block;
+        text-align: left;
+        padding: 1em 1.8em;
+    }
+
+    .footer_content{
+        height: auto;
+    }
+    .footer_container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        /* border: 1px solid red; */
+    }
+    .for-small{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 4em 0em;
+        left: 0%;
+    }
+
+    .white-box{
+        padding: 5em 0em;
+    }
+}
+
+@media  (min-width: 889px) and (max-width: 1350px) {
+
+    .align-items{
+        display: flex;
+     justify-content: space-between;
+    }
+    .bg_green p{
+        font-size: 1.7rem;
+    }
+    .sign_in{
+        display: none;
+    }
+    .footer_content{
+        height: auto;
+    }
+    .footer_container{
+        width: 100%;
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: space-between;
+        align-items: center;
+        /* border: 1px solid red; */
+    }
+    .footer_container .important_links{
+        margin-left: 2rem;
+    }
+    .for-small{
+        display: flex;
+        width: 100%;
+        padding: 4em 0em;
+        left: 0%;
+    }
+
+    .white-box{
+        padding: 5em 0em;
+    }
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/w3.css">
+    <link rel="stylesheet" href="./css/my_style.css">
+    <title>ASDP_Login</title>
+</head>
+<body>
+    <div class="bg_green" style="height: 4rem; background-color: rgb(6, 138, 6);">
+        <div class="container"><p><a href="asdp.pmu@gmail.com" style="display: inline-block;  color: white;">asdp.pmu@gmail.com</a> <span class="phone_icon" style=" color: white;"> +92 91 9218501</span></p</div>
+    </div>
+    <nav class="nab-bar w3-bar">
+        <div class="container" style="width: 95%;">
+            <div class="align-items">
+            <div class="asdp_logo" style="width: 80px; height: 80px; border-radius: 100%">
+            <img class="w3-block" src="./images/asdp_logo_footer.png" alt="asdp_logo" style="width: 100%;"></div>
+            <ul class="nav-items w3-padding-small" style="max-width: 1000px; width: auto; margin: 0% 3rem 0% 2rem;">
+                <li class="items w3-bar-item w3-border-0 w3-button w3-hide-small w3-hide-medium" style="font-size: 1.6rem;">home</li>
+                <li class="items w3-bar-item w3-border-0 w3-button w3-hide-small w3-hide-medium" style="font-size: 1.6rem;">about us</li>
+                <li class="items w3-bar-item w3-border-0 w3-button w3-hide-small w3-hide-medium" style="font-size: 1.6rem;">the program</li>
+                <li class="items w3-bar-item w3-border-0 w3-button w3-hide-small w3-hide-medium" style="font-size: 1.6rem;">affiliated institue</li>
+                <li class="items w3-bar-item w3-border-0 w3-button w3-hide-small w3-hide-medium" style="font-size: 1.6rem;">trannings</li>
+                <li class="items w3-bar-item w3-border-0 w3-button w3-hide-small w3-hide-medium" style="font-size: 1.6rem;">downloads</li>
+                <li class="items w3-bar-item w3-border-0 w3-button w3-hide-small w3-hide-medium" style="font-size: 1.6rem;">contact us</li>
+            <a class="w3-bar-item w3-hide-large w3-button w3-large" onclick="myFunction()" href="javascript:void(0)" style="position:absolute; top: 9%; right:0%; z-index: 5;">&#9776</a>
+            </ul>
+            <div class="sign_in w3-hide-medium w3-hide-small" style="max-width: 350px; width: auto; margin-left: 4rem;">
+                <div class="user_login w3-border-right" style="padding-right: 1em; display: inline-block;">
+                    <p style="font-size: 1.6rem; text-transform: capitalize; color: blue;"><a href="#">create account</a></p>
+                </div>
+                <div class="login" style="  display: inline-block;">
+                    <p style="font-size: 1.6rem; text-transform: capitalize; color: blue;"><a href="#">sign in</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </nav>
+    <ul id="demo" class="w3-hide w3-bar-block w3-hide-large" style="font-size: 1.6rem">
+        <li class="w3-bar-item w3-button">Home</li>
+        <li class="w3-bar-item w3-button">About Us</li>
+        <li class="w3-bar-item w3-button">The program</li>
+        <li class="w3-bar-item w3-button">Affiliated Institues</li>
+        <li class="w3-bar-item w3-button">Trannings</li>
+        <li class="w3-bar-item w3-button">Downloads</li>
+        <div class="user_login  w3-button" style="padding-right: 1em;">
+            <p style="font-size: 1.6rem; text-transform: capitalize; color: blue;"><a href="#">create account</a></p>
+        </div>
+        <div class="login w3-button">
+            <p style="font-size: 1.6rem; text-transform: capitalize; color: blue;"><a href="#">sign in</a></p>
+        </div>
+    </ul>
+    <div class="content" style="width: 100%;">
+        <div class="center-text" style="width: 250px; margin: 1rem auto; text-align: center; color: white;">
+            <h1>login</h1>
+            <p class="w3-xlarge">login your account</p>
+        </div>
+        <div class="links w3-black w3-large w3-center" style="width: 100%; height: auto;">
+            <div class="btn w3-padding"><a class="w3-button" style="display: inline-block;" href="#">Home</a> <span>></span> <a href="#" class="w3-button" style="display: inline-block;">login</a></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="form_box" style="max-width: 700px; margin: 50px auto; padding-bottom: 4em;">
+        <h2 class="w3-xlarge w3-margin-top w3-center" style="text-transform: uppercase; word-spacing: 3px; letter-spacing: 3px;">login to your account</h2>
+        <form action="#">
+             <div class="input nic" style="width: 85%; margin: auto;">
+                 <label for="nic" style="font-size: 1.5rem;">CNIC#:<span class="w3-text-red">*</span></label>
+                 <input class="w3-input w3-margin-bottom w3-padding w3-round w3-border w3-large" type="text" id="nic" placeholder="Enter Your CINC" style="display: block; width: 100%;">
+                 <div class="msg_icon"></div>
+                </div>   
+            <div class="input psw" style="width: 85%; margin: auto;">
+                <label for="nic" style="font-size: 1.5rem;">Password:<span class="w3-text-red ">*</span></label>
+                <input class="w3-input w3-padding w3-margin-bottom w3-round w3-border w3-large" type="text" id="nic" style="display: block; width: 100%;">
+                <div class="psw_icon"></div>
+            </div>
+            <div class="input" style="width: 85%; margin: auto;">
+                <input class="w3-input w3-block w3-blue w3-padding w3-round-xxlarge w3-button w3-margin-bottom w3-large" style="width: 100%;" type="submit" value="SIGN IN">
+            </div>
+                <div class="under_line" style="width: 85%; margin: auto;">
+                <div class="w3-left">
+                    <p class="w3-text-blue" style="font-size: 1.5rem;"><a href="#">forgot Password?</a> <span class="w3-border-left" style="padding-left: 0.5em;"><a href="#">Sign Up</a></span></p>
+                </div>
+                <div class="w3-right">
+                    <input type="checkbox" id="check">
+                    <label for="check" style="font-size: 1.3rem; padding-left: 0.5em">Remember Password</label>
+                </div>
+            </form>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer_content ">
+        <div class="footer_container">
+        <div class="footer_logo" style="width: 150px; height: 150px; border-radius: 100%">
+            <img src="./images/asdp_logo_footer.png" alt="" style="display: block; width: 100%;">
+        </div>
+        <div class="for-small">
+        <div class="departments_links" style="max-width: 300px">
+            <p style="text-transform: capitalize; font-size: 1.6rem"><a href="#">accelareted skills <span class="w3-block">development program</span></a></p>
+            <p style="font-size: 1.6rem; text-transform: capitalize;"><a href="#">industries commerce & technical <br> education departments, khyber pakhtunkhwa</a></p>
+        </div>
+        <div class="important_links departments_links" style="max-width: 250px;">
+            <p style="font-size: 1.6rem; text-transform: capitalize;"><a href="#">--> the program</a></p>
+            <p style="font-size: 1.6rem; text-transform: capitalize;"><a href="#">--> affiliated institues</a></p>
+            <p style="font-size: 1.6rem; text-transform: capitalize;"><a href="#">--> trannings</a></p>
+            <p style="font-size: 1.6rem; text-transform: capitalize;"><a href="#">--> downloads</a></p>
+            <p style="font-size: 1.6rem; text-transform: capitalize;"><a href="#">--> contact us</a></p>
+        </div>
+        </div>
+        <div class="email_box" style="max-width: 450px; width: 350px;">
+            <input class="w3-input w3-round" type="email" id="" placeholder="Email" style="width: 50%; display: inline-block; font-size: 1.6rem; padding: 0.5em;">
+            <button class="w3-button w3-round w3-border-0 w3-blue" style="width: 35%; display: inline-block; margin-top: -0.5rem; margin-left: 2.5rem; padding: 0.5em; font-size: 1.6rem;">Subcribe</button>
+            <p style="font-size: 1.6rem; display: inline-block; padding-top: 1.5em;"> developed by</p>
+            <div class="white-box" style="display: inline-block;">
+            <img class="w3-image" src="./images/IMAU_logo.png" alt="" style="height: 40px; width: 100%; display: inline-block; background-color: white;">
+            </div>
+        </div>
+    </div>
+    <p style="font-size: 1.6rem; text-transform: capitalize;" class="w3-center w3-text-white w3-margin-top">all copyrights reserved</p>
+    </footer>
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("demo");
+          if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+          } else { 
+            x.className = x.className.replace(" w3-show", "");
+          }
+        }
+        </script>
+</body>
+</html>
