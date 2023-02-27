@@ -107,6 +107,9 @@ html{
     font-size: 1.5rem;
 }
 
+.sign_in-btn{
+    transition: all 500ms ease-in-out;
+}
 .under_line a:hover{
     text-decoration: underline;
     color: black;
@@ -143,7 +146,7 @@ html{
 .footer_content a{
     transition: color 0.5s ease-in-out;
 }
-.footer_content a:hover{
+.footer_content .text-color-orange:hover a{
     color: orange;
 }
 .departments_links{
@@ -153,6 +156,10 @@ html{
 }
 .important_links{
     margin-left: 5rem;
+}
+
+.important_links a:hover{
+    color: orange;
 }
 .important_links p{
     line-height: 2.5rem;
@@ -200,6 +207,17 @@ html{
         display: block;
         text-align: left;
         padding: 1em 1.8em;
+    }
+
+    .under_line::after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+    .under_line{
+        border: 1px solid red;
+        padding: 0em 1.5em;
+        /* margin-right: 2rem; */
     }
 
     .footer_content{
