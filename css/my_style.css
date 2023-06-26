@@ -81,8 +81,8 @@ html{
 .form_box .nic{
     position: relative;
 }
-.nic .msg_icon{
-    background: url(./../icons/contact.png) no-repeat;
+.nic .id-crd-icon{
+    background: url(./../icons/id-card.png) no-repeat;
     background-position: center right;
     background-size: 3rem;
     padding: 2.5em;
@@ -97,7 +97,7 @@ html{
 .psw .psw_icon{
     background: url(./../icons/psw.png) no-repeat;
     background-position: center right;
-    background-size: 3.5rem;
+    background-size: 3rem;
     padding: 2.5em 3em;
     position: absolute;
     top: 45%;
